@@ -19,23 +19,32 @@ import { Subscription } from 'rxjs';
   encapsulation: ViewEncapsulation.None,
   styleUrls: ['./player-search.scss'],
   template: `
-    <form class="navbar-form form-search" id="media-explorer"
+    <form
+      class="navbar-form form-search"
+      id="media-explorer"
       [formGroup]="searchForm"
-      >
+    >
       <div class="form-group clearfix is-flex-row">
-        <input placeholder="Find My songs..." id="media-search"
+        <input
+          placeholder="Find My songs..."
+          id="media-search"
           #mediaSearch
           ngxTypeahead
           [taUrl]="'//suggestqueries.google.com/complete/search'"
           [taParams]="params"
           [taAllowEmpty]="true"
           (taSelected)="handleSelectSuggestion($event)"
-          type="search" class="form-control" autocomplete="off"
+          type="search"
+          class="form-control"
+          autocomplete="off"
           name="mediaSearch"
           formControlName="searchInput"
           value=""
-          >
-        <button class="btn btn-transparent btn-submit" tooltip="search with atahska">
+        />
+        <button
+          class="btn btn-transparent btn-submit"
+          tooltip="search with Zumba Player"
+        >
           <icon name="search"></icon>
         </button>
       </div>
@@ -49,7 +58,7 @@ export class PlayerSearchComponent implements OnChanges, OnDestroy {
   @Output() search = new EventEmitter();
   // @Output() typing = new EventEmitter<string>();
 
-  @ViewChild('mediaSearch',{static: true}) mediaSearch;
+  @ViewChild('mediaSearch', { static: true }) mediaSearch;
 
   searchForm: FormGroup;
   formState: Subscription;
@@ -62,7 +71,6 @@ export class PlayerSearchComponent implements OnChanges, OnDestroy {
   };
 
   constructor(private fb: FormBuilder) {
-
     this.searchForm = fb.group({
       searchInput: this.query
     });

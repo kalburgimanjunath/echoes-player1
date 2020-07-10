@@ -25,21 +25,31 @@ enum Key {
   selector: 'app-navbar-menu',
   animations: [expandFadeInAnimation],
   template: `
-    <button class="btn btn-navbar btn-transparent ux-maker btn-toggle"
-      (click)="toggleMenu()">
+    <button
+      class="btn btn-navbar btn-transparent ux-maker btn-toggle"
+      (click)="toggleMenu()"
+    >
       <icon name="ellipsis-v"></icon>
-      <icon *ngIf="appVersion.isNewAvailable" name="dot-circle-o" class="pulse update-indicator text-primary"></icon>
+      <icon
+        *ngIf="appVersion.isNewAvailable"
+        name="dot-circle-o"
+        class="pulse update-indicator text-primary"
+      ></icon>
     </button>
     <div class="menu-backdrop" *ngIf="!hide" (click)="hideMenu()"></div>
-    <div class="panel menu-dropdown"
+    <div
+      class="panel menu-dropdown"
       [class.end-animation]="end"
       [@expandFadeIn]="menuState"
       (@expandFadeIn.done)="endAnimation($event)"
-      >
+    >
       <div class="list-group">
         <div *ngIf="appVersion.isNewAvailable" class="list-group-item">
-          <button class="btn btn-success" title="click to update atahska"
-            (click)="handleVersionUpdate()">
+          <button
+            class="btn btn-success"
+            title="click to update Zumba Player"
+            (click)="handleVersionUpdate()"
+          >
             New Version Is Available - UPDATE NOW
           </button>
         </div>
@@ -78,9 +88,11 @@ enum Key {
         <a class="list-group-item navbar-action-link" href="https://docs.google.com/forms/d/e/1FAIpQLSdzGRIXoHuzRFZU03EyhgwBJgJp6W1LMatz6Bn44L-5SyuxZA/viewform" target="_blank" rel="noopener">
           <icon name="star-o"></icon> Request New Features
         </a>-->
-        <button class="list-group-item"
+        <button
+          class="list-group-item"
           *ngIf="signedIn"
-          (click)="handleSignOut()">
+          (click)="handleSignOut()"
+        >
           <icon name="sign-out"></icon> Sign Out
         </button>
       </div>
