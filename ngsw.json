@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1594392571821,
+  "timestamp": 1594394759783,
   "index": "gymplayer/index.html",
   "assetGroups": [
     {
@@ -12,8 +12,8 @@
         "gymplayer/5-es5.f4e8db5b422ecbd73bc2.js",
         "gymplayer/favicon.ico",
         "gymplayer/index.html",
-        "gymplayer/main-es2017.60c0b4eacd1eff84ea0c.js",
-        "gymplayer/main-es5.60c0b4eacd1eff84ea0c.js",
+        "gymplayer/main-es2017.b360c610ddb934e6bddd.js",
+        "gymplayer/main-es5.b360c610ddb934e6bddd.js",
         "gymplayer/polyfills-es2017.8767ffccb268ed94a208.js",
         "gymplayer/polyfills-es5.566bdee0fb141cb58bd8.js",
         "gymplayer/runtime-es2017.7add17b0e7e3ed41e5e0.js",
@@ -47,7 +47,7 @@
   "hashTable": {
     "gymplayer/5-es2017.f4e8db5b422ecbd73bc2.js": "2ef037ad1dde572f928e29648316e707ee6bc290",
     "gymplayer/5-es5.f4e8db5b422ecbd73bc2.js": "c4238c94bcc6c1616f3e1ed6915edea812776c00",
-    "gymplayer/assets/icon/icon.html": "04166bd8cf5e43e8c8f969e061dd076fe68ed049",
+    "gymplayer/assets/icon/icon.html": "ec6fb984f2233ace176439b864a8d078025f1095",
     "gymplayer/assets/icons/icon-128x128.png": "1855fde998b3d93beaaa4b0df600162892af7442",
     "gymplayer/assets/icons/icon-144x144.png": "fc7be92b73a0e13d93a173bfe870a5e7cfcf47e3",
     "gymplayer/assets/icons/icon-152x152.png": "4d76bcd323a51d39388f49ffb670dee52c30f1d5",
@@ -60,9 +60,9 @@
     "gymplayer/assets/images/developed-with-youtube-sentence-case-light.png": "5e464a581cf659c50cadc5606cba4f2e62c881f8",
     "gymplayer/assets/privacy-policy.txt": "02fd28d19f011dd75ff2e2483b67c664edfabee5",
     "gymplayer/favicon.ico": "6cf8ada4691f9c8311889101d975fe925597ec22",
-    "gymplayer/index.html": "acc6545bf9ad8064fed1b7541577d34b1cdcf689",
-    "gymplayer/main-es2017.60c0b4eacd1eff84ea0c.js": "46c447545ef3149a154dbf7bba74390ce1e227e5",
-    "gymplayer/main-es5.60c0b4eacd1eff84ea0c.js": "d16878919774d2fa98d68d367e00a01c364b2ff4",
+    "gymplayer/index.html": "5dc7ed2ede358e2bbc952e8a7e401be8c28b2413",
+    "gymplayer/main-es2017.b360c610ddb934e6bddd.js": "1ed3bc1aac57d5ef5d15d3e2fbcc3d7b2b85c1a5",
+    "gymplayer/main-es5.b360c610ddb934e6bddd.js": "c21f351ac9835ff393df8093eef4af04c81ff43a",
     "gymplayer/polyfills-es2017.8767ffccb268ed94a208.js": "ecfc3cf9d805e0367803d9f5901cb731369038d1",
     "gymplayer/polyfills-es5.566bdee0fb141cb58bd8.js": "5d7c7e894098ad08ca8c251c7f1b6696e109ee8e",
     "gymplayer/runtime-es2017.7add17b0e7e3ed41e5e0.js": "280c9f0ca0e3c57490d91f961e5ef974953c5ca3",
