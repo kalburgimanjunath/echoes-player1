@@ -26,23 +26,22 @@ export interface IPresetParam {
 }
 
 export class CSearchTypes {
-  static VIDEO =  'video';
+  static VIDEO = 'video';
   static PLAYLIST = 'playlist';
 }
 
 export class CPresetTypes {
   static FULL_ALBUMS = 'full albums';
   static LIVE = 'live';
-  static DANCE = 'dance';
-  static ZUMBA = 'Zumba';
-  static MOTIVATIONAL = 'Motivational';
-  static STRONGBYZUMBA = 'Strong zumba';
-  static BOLLYWOOD = 'Bollybeats';
-  static CULT = 'Cult fit';
-  static WORKOUT = 'Workout';
+  // static DANCE = 'dance';
+  // static ZUMBA = 'Zumba';
+  // static MOTIVATIONAL = 'Motivational';
+  // static STRONGBYZUMBA = 'Strong zumba';
+  // static BOLLYWOOD = 'Bollybeats';
+  // static CULT = 'Cult fit';
+  // static WORKOUT = 'Workout';
   // static SEX = 'Erotic sex';
   // static SITAR = 'Sitar';
   // static VEDIC = 'Vedic chants';
   // static KIDS = 'For Kids';
-
 }

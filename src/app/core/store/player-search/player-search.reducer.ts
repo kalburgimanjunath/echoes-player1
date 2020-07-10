@@ -19,17 +19,17 @@ const initialState: IPlayerSearch = {
   presets: [
     { label: 'Any', value: '' },
     { label: 'Albums', value: CPresetTypes.FULL_ALBUMS },
-    { label: 'Live', value: CPresetTypes.LIVE },
-    { label: 'Zumba', value: CPresetTypes.ZUMBA },
-    { label: 'Dance', value: CPresetTypes.DANCE },
-    { label: 'Strong zumba', value: CPresetTypes.STRONGBYZUMBA },
-    { label: 'Motivation', value: CPresetTypes.MOTIVATIONAL },
+    { label: 'Live', value: CPresetTypes.LIVE }
+    // { label: 'Zumba', value: CPresetTypes.ZUMBA },
+    // { label: 'Dance', value: CPresetTypes.DANCE },
+    // { label: 'Strong zumba', value: CPresetTypes.STRONGBYZUMBA },
+    // { label: 'Motivation', value: CPresetTypes.MOTIVATIONAL },
     // { label: 'Sitar', value: CPresetTypes.SITAR },
     // { label: 'Vedic chants', value: CPresetTypes.VEDIC },
     // { label: 'For Kids', value: CPresetTypes.KIDS },
-    { label: 'Bollywood', value: CPresetTypes.BOLLYWOOD },
-    { label: 'Cult fit', value: CPresetTypes.CULT },
-    { label: 'Workout', value: CPresetTypes.WORKOUT }
+    // { label: 'Bollywood', value: CPresetTypes.BOLLYWOOD },
+    // { label: 'Cult fit', value: CPresetTypes.CULT },
+    // { label: 'Workout', value: CPresetTypes.WORKOUT }
     //{ label: 'Sex', value: CPresetTypes.SEX }
   ],
   pageToken: {
